@@ -1,0 +1,7 @@
+<div class="wrapper-div">
+  <%= form.label :content, "ingredient" %>
+  <%= form.text_field :content %>
+  <%= form.label :amount, "amount" %>
+  <%= form.text_field :amount %>
+  <%= link_to_remove_nested(form) %> <!-- adds a link to add more items -->
+</div>
